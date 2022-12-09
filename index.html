@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <!--favicon-->
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <!-- nav bar -->
+<header>
+    <!-- logo -->
+    <a href="" class="logo">Portfolio</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <!-- menu items -->
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- darkmode button -->
+    <div class="bx bx-moon" id="darkmode"></div>
+</header>
+
+    <!-- home sec -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://github.com/sp182" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="#about"><i class="bx bx-phone"></i></a>
+        <a href="#contact"><i class="bx bx-envelope"></i></a>
+    </div>
+
+    <!-- home image -->
+<div class="home-img">
+    <img src="img/me.jpeg" alt="">
+</div>
+<!-- home-content -->
+<div class="home-text">
+    <span>Hello, I'm</span>
+    <h1>Sanjeevani Pramanik</h1>
+    <h2>CSE Student</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates consequuntur totam maiores rem rerum ratione, doloribus fuga quidem, facere voluptatem ipsam dignissimos, distinctio iste ad in ipsum blanditiis tempore corrupti.</p>
+    <!-- contact btn -->
+    <a href="#contact" class="btn">Contact Me</a>
+</div>
+</section>
+
+<!-- about sec -->
+<section class="about" id="about">
+    <!-- heading -->
+    <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+        <!-- about-img -->
+        <div class="about-img">
+        <img src="img/about.jpg" alt="">
+    </div>
+
+    <div class="about-text">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum voluptates magni fugiat quam ab sapiente itaque non culpa saepe neque placeat eius, optio, quisquam quos fugit. Cupiditate sit accusamus natus!<p>
+            <div class="information">
+                <!-- box1 -->
+                <div class="info-box">
+                    <i class="bx bxs-user"></i>
+                    <span>Sanjeevani Pramanik</span>
+                </div>
+
+                <!-- box2 -->
+                <div class="info-box">
+                    <i class="bx bxs-phone"></i>
+                    <span>+91 7507498037</span>
+                </div>
+                <!-- box3 -->
+                <div class="info-box">
+                    <i class="bx bxs-envelope"></i>
+                    <span>sanjeevanip182@gmail.com<span>
+                </div>
+
+                <!-- btn -->
+                <a href="cv/SANJEEVANI PRAMANIK RESUME.pdf" class="btn" target="_blank">Download CV</a>
+            </div>
+    </div>
+</div>
+</section>
+
+<!-- skill section -->
+<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+        <span>My Skills</span>
+        </div>
+
+        
+        <div class="skills-container">
+            <div class="bars">
+                <!-- box1 -->
+        <div class="bars-box">
+            <h3>HTML</h3>
+            <span>94%</span>
+            <div class="light-bar"></div>
+                <div class="percent-bar html-bar"></div>
+            </div>
+            <!-- box2 -->
+        <div class="bars-box">
+            <h3>CSS</h3>
+            <span>84%</span>
+            <div class="light-bar"></div>
+                <div class="percent-bar css-bar"></div>
+            </div>
+            <!-- box3 -->
+        <div class="bars-box">
+            <h3>JavaScript</h3>
+            <span>74%</span>
+            <div class="light-bar"></div>
+                <div class="percent-bar js-bar"></div>
+            </div>
+            <!-- box4 -->
+        <div class="bars-box">
+            <h3>MySQL</h3>
+            <span>80%</span>
+            <div class="light-bar"></div>
+                <div class="percent-bar mysql-bar"></div>
+            </div>
+            <!-- box5 -->
+        <div class="bars-box">
+            <h3>Java</h3>
+            <span>75%</span>
+            <div class="light-bar"></div>
+                <div class="percent-bar java-bar"></div>
+            </div>
+            <!-- box4 -->
+        <div class="bars-box">
+            <h3>PHP</h3>
+            <span>70%</span>
+            <div class="light-bar"></div>
+                <div class="percent-bar php-bar"></div>
+            </div>
+            </div>
+
+            <!-- image -->
+            <div class="skills-img">
+                <img src="img/skills.jpeg" alt="">
+            </div>
+        </div>
+</section>
+        
+        <!-- contact -->
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Contact With Me</span>
+    </div>
+
+    <div class="contact-form">
+        <form action="" onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <input type="text" id="phone" placeholder="Your Phone Number">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Write Message Here...."></textarea>
+            <input type="submit" class="contact-button" value="Send">
+        </form>
+    </div>
+</section>
+
+<!-- footer -->
+<div class="footer">
+    <h2>Sanjeevani Pramanik</h2>
+    <div class="footer-social">
+        <a href="https://www.linkedin.com/in/sanjeevani-pramanik-343996247/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.instagram.com/_sanjeevanii_/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/sp182" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://open.spotify.com/user/qmdwrlk6i70dprijrl086w0ry" target="_blank"><i class="bx bxl-spotify"></i></a>
+    </div>
+</div>
+
+<!-- copyright -->
+
+<div class="copyright">
+    <p>Create By <a href="">Sanjeevani Pramanik</a> | All Rights Reserved.</p>
+</div>
+<script src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
